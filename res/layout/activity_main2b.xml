@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="com.mobile.strigoy.myapplication.ControlActivity">
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"-->
+
+    <Button
+        android:id="@+id/DeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:alpha="0.4"
+        android:onClick="setEdit"
+        android:text="@string/b_clear" />
+
+    <ToggleButton
+        android:id="@+id/animButtonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.3"
+        android:textOff="@string/b_animation"
+        android:textOn="@string/b_animation"
+        android:onClick="setAnimation"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/styleButtonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.4"
+        android:text="@string/b_style"
+        android:onClick="setStyle"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/animButtonB" />
+
+    <Button
+        android:id="@+id/MirrorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/styleButtonB"
+        android:alpha="0.3"
+        android:checked="true"
+        android:onClick="setLine"
+        android:text="@string/b_m_of" />
+
+</RelativeLayout>

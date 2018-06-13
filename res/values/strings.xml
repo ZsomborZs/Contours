@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_name_alt">Curve DJ</string>
+    <string name="main_title">Let\'s draw!</string>
+    <string name="b_bezier">Bezier</string>
+    <string name="b_hermite">Hermite</string>
+    <string name="b_lagrange">Lagrange</string>
+    <string name="b_catmullrom">Catmull rom</string>
+    <string name="b_mirr">Mirror draw</string>
+    <string name="powered">Powered by: ZsZs</string>
+    <string name="b_animation">Animation</string>
+    <string name="b_style">Style</string>
+    <string name="b_clear">Clear</string>
+    <string name="b_edit">Edit</string>
+    <string name="b_line">Line</string>
+    <string name="b_m_of">Mirror off</string>
+    <string name="b_m_v">Vertical</string>
+    <string name="b_m_h">Horizontal</string>
+    <string name="b_m_d">Diagonal</string>
+    <string name="b_m_q">Quad</string>
+    <string name="instr1">Touch random points!</string>
+    <string name="instr2">Drag and drop available</string>
+    <string name="instr3">Try to move the points!</string>
+    <string name="instr4">Touch to delete points!</string>
+    <string name="instr5">Change mirror mode!</string>
+    <string name="instr6">4 available</string>
+    <string name="instr7">Bezier limit!</string>
+    <string name="instr8">One touch, one point!</string>
+</resources>

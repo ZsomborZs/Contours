@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.strigoy.myapplication">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23"
+        android:maxSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mylo1"
+        android:label="@string/app_name_alt"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+       >
+        <activity android:name="com.mobile.strigoy.myapplication.MainActivity">
+            android:hardwareAccelerated="false"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mobile.strigoy.myapplication.ControlActivity"
+            android:label="Curve" />
+    </application>
+
+</manifest>
